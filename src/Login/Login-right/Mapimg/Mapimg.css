@@ -1,0 +1,73 @@
+.pictures{
+    width: 160px;
+    height: 170px;
+    border-radius: 50%;
+}
+.pic-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 300px;
+    width: 200px;
+    background-color: rgb(29, 28, 28);
+    justify-content: center;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    cursor: pointer;
+    
+}
+.pic-cont:hover{
+    background-color: rgb(44, 43, 43);
+    
+}
+.name{
+    font-weight: 600;
+    overflow: hidden; 
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.artist{
+    font-size: 14px;
+    color: gray;
+}
+.play-btn{
+    position: absolute;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 140px;
+    top: 160px;
+    opacity: 0;
+    transition:top 0.4s;
+    cursor: pointer;
+    
+}
+.pic-cont:hover .play-btn{
+    display: flex;
+    top: 140px;
+    opacity: 1;
+}
+.desc{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.writings{
+    display: flex;
+    gap: 90px;
+    list-style: none;
+}
+.desc-icons{
+    display: flex;
+    width: 200px;
+    justify-content: space-evenly;
+}
+li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
