@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Spotify_Clone/static/css/main.c0cb084e.css",
+    "main.js": "/Spotify_Clone/static/js/main.f07afd38.js",
+    "static/media/facebook.png": "/Spotify_Clone/static/media/facebook.2113231d4fcb17b5f7e1.png",
+    "static/media/Google.jpg": "/Spotify_Clone/static/media/Google.13c9abd650dbfa985ccf.jpg",
+    "static/media/Shreya.jpg": "/Spotify_Clone/static/media/Shreya.ca48637f3b64b835171a.jpg",
+    "static/media/Sidsriram.jpeg": "/Spotify_Clone/static/media/Sidsriram.6fdcc917c0a6e071c6f7.jpeg",
+    "static/media/tum_hi_ho.jpeg": "/Spotify_Clone/static/media/tum_hi_ho.ec54f579207d21dd8ada.jpeg",
+    "static/media/AR Rahman.jpeg": "/Spotify_Clone/static/media/AR Rahman.d1d8f610f4b83c5e43d2.jpeg",
+    "static/media/Arjithsingh.jpeg": "/Spotify_Clone/static/media/Arjithsingh.830c3f2937dd898ec27f.jpeg",
+    "static/media/Yuvan.jpeg": "/Spotify_Clone/static/media/Yuvan.6bb2d935d07993407d3e.jpeg",
+    "index.html": "/Spotify_Clone/index.html",
+    "main.c0cb084e.css.map": "/Spotify_Clone/static/css/main.c0cb084e.css.map",
+    "main.f07afd38.js.map": "/Spotify_Clone/static/js/main.f07afd38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c0cb084e.css",
+    "static/js/main.f07afd38.js"
+  ]
+}
