@@ -5,13 +5,16 @@ import Mapimg from './Mapimg/Mapimg'
 import { FaInstagram } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import Imagedet from './Imagedetail/Imagedet';
+import { Link } from 'react-router-dom';
 
 const Right = () => {
 
   const [show,setShow]=useState(false)
   const [defaultlen,setDefaultlen]=useState(5)
   const [showbtn,setShowbtn]=useState('Show all')
-  console.log(show)
+  const [artistdetail,setArtistdetail]=useState(false)
+  const [imageidd,setImageidd]=useState(null)
   function handleshow(){
     setShow(!show)
     setDefaultlen(!show?all_product.length:5)
@@ -19,20 +22,27 @@ const Right = () => {
   }
 
   return (
+    <div>
+      
     <div className='container-right'>
 
       <header className="head-right">
         <div className="l-r-btns">
-          <button className='btns-lr'>&lt;</button>
+          <button className='btns-lr' onClick={()=>{setArtistdetail(false)}}>&lt;</button>
           <button className='btns-lr'>&gt;</button>
         </div>
         <div className="signup-login">
+          <Link to="signup">
           <button className="sign-up">Sign up </button>
+          </Link>
+          <Link to='login'>
           <button className="login-up">Login</button>
+
+          </Link>
         </div>
       </header>
 
-      <div className="body-pics">
+      {!artistdetail?(<div className="body-pics">
         <div className='body-pics-head'>
           <span>Popular artists</span>
           <button onClick={()=>{handleshow()}}>{showbtn}</button>
@@ -41,7 +51,7 @@ const Right = () => {
 
         <div className="image-content">
           {all_product.slice(0,defaultlen).map((item)=>{
-            return <Mapimg item={item}/>
+            return <Mapimg item={item} setArtistdetail={setArtistdetail} setImageidd={setImageidd} />
           })}
         </div>
       
@@ -80,8 +90,12 @@ const Right = () => {
       </div>
       <hr style={{'opacity':"0.2"}} />
           <p style={{'color':'darkgray','fontSize':"14px"}}>&copy;2024 Spotify AB</p>
-      </div>
+      </div>):
       
+      (
+        <Imagedet imageidd={imageidd}/>
+      )}
+    </div>
 
     </div>
 

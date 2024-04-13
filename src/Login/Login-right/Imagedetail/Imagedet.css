@@ -1,0 +1,116 @@
+.bannersection {
+    position:relative;
+    height: 400px; /* Set the height of the banner container */
+    overflow: hidden; /* Hide any content that overflows the container */
+    z-index: 1;
+}
+
+.banner-image {
+    position: absolute;
+    top: -70px;
+    left: 0;
+    width: 100%; /* Ensure the image fills the entire width of the container */
+    height: auto; /* Maintain aspect ratio */
+}
+.icon{
+    fill: rgb(0, 123, 255);
+}
+.bannersection h1{
+    font-size: 50px;
+}
+.rows-of-songs{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+.row-image{
+    width: 55px;
+    height: 55px;
+    border-radius: 10px;
+}
+.inside-bannersection{
+    position: absolute;
+    top: 600px;
+} 
+
+.inside-content{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+}
+.play-btns{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.follow{
+    background-color: transparent;
+    color: white;
+    border: 1px solid ;
+    width: 80px ;
+    cursor: pointer;
+}
+.moreopt{
+    background-color: transparent;
+    color: white;
+    letter-spacing:4px;
+    cursor: pointer;
+    width: 80px;
+}
+.play-btn-follow-btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+.play-btn-follow-btn button{
+    transition: 0.2s ease
+}
+.play-btn-follow-btn button:hover{
+    transform: scale(1.1);
+}
+.rows-of-songs:hover{
+    background-color: rgb(41,41,41);
+    border-radius: 10px;
+}
+.song-name{
+    width: 100px;
+    overflow: hidden;
+    height: 19px;
+    font-size: 13px;
+}
+.artist-about{
+    display: flex;
+    width: 100%;
+
+}
+.about-artist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    padding-left: 50px;
+}
+
+.about-artist img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+.song-col{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+.about-artist p{
+    font-size: 14px;
+}

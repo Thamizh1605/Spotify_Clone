@@ -1,0 +1,96 @@
+.sign-cont{
+    background-color: black;
+    width: 100vw;
+    padding: 30px;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    overflow: scroll;
+}
+.spoti-icon{
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.icons-i{
+    font-size: 30px;
+}
+.signup-body{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    gap: 30px;
+}
+.ph{
+    font-size: 12px;
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+.email{
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+.next{
+    width:100%;
+    background-color: rgb(51, 153, 51);
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 10px 10px 30px;
+}
+.hr{
+    position: relative;
+    
+}
+.hr p{
+    position:absolute;
+    top: -20px;
+    left: 230px;
+    background-color: black;
+    padding: 10px;
+}
+.gfa-icons{
+    width: 30px;
+    height: 30px;
+}
+.btn-gfa{
+    width: 70%;
+    height: 50px;
+    display: flex;
+    padding-left: 30px;
+    gap: 40px;
+    align-items: center;
+    cursor: pointer;
+
+}
+.google-face-apple{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.btn-gfa p{
+    color: black;
+}
+.alre-acc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.alre-acc p{
+    font-size: 12px;
+}
+.alre-acc p span{
+    text-decoration: underline;
+}
+hr{
+    border: none;
+   border-top: 1px solid;
+   color: gray;
+}

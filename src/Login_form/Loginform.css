@@ -1,0 +1,89 @@
+.login-contain{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    background:linear-gradient(to bottom , rgb(42, 41, 41),black)
+}
+.spoti-icons{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    font-size: 40px;
+    padding: 20px;
+    
+    background-color: rgb(17,15,15);
+}
+.login-body{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: rgb(17, 15, 15);
+    padding: 40px;
+    border-radius: 10px;
+}
+.google-face-apple{
+    width: 100%;
+}
+.btn-gfas{
+    width: 50%;
+    height: 50px;
+    display: flex;
+    padding-left: 30px;
+    gap: 40px;
+    align-items: center;
+    cursor: pointer;
+}
+.btn-gfas p{
+    color: black;
+}
+.a{
+    justify-content: center;
+}
+.username{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+.username input{
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    color: black;
+    padding: 10px;
+}
+#checkbox{
+    display: flex;
+    width: 15px;
+}
+.username div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.username button{
+    background-color: rgb(111, 212, 111);
+    margin-left: 50px;
+    width: 250px;
+}
+.username button:hover{
+    cursor: pointer;
+}
+.pp{
+    font-size: 12px;
+    text-decoration: underline;
+}
+.hdr{
+   width: 80%;
+    border: none;
+   border-top: 1px solid;
+   color: gray;
+}
+.sp{
+    text-decoration: underline;
+}
